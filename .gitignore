@@ -1,0 +1,16 @@
+/vendor/
+/node_modules/
+.env
+.env.*
+!.env.example
+.phpunit.result.cache
+.DS_Store
+Thumbs.db
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+/bootstrap/cache/*.php
+!/bootstrap/cache/.gitignore
